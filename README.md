@@ -44,3 +44,10 @@ This solution was hard for me to visualize at first. We split the work into four
 # A Code refactor
 
 # Proposal
+## Technical Discovery @ andculture
+
+I've been involved with several "discovery" engagements with our client partners at andculture. In every case, there is a lack of emphasis being put on delivering real value, and setting expectations that set us up for success. Instead, engineering is often asked for estimates that are used to generate a waterfall style Gantt chart, large requirements documents and/or fixed price engagements that eventually puts strain on the team and the client to maintain a "pace" rather than instilling trust in the team that we (andculture) are delivering value to our clients. The term "Technical Discovery" has been coined for projects that require engineering expertise. Or, a digital solution is expected.
+
+andculture is a Design Company. We're made up of departments that all have extremely different thought processes. The clash is what we strive for, yet we tend to isolate that environment for projects that we have already tagged as engineering focused. I recommend we involve engineering with every discovery project. If it is clear that a department's involvement with the project is not adding value, that party can be dismissed.
+
+
