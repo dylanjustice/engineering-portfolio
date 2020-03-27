@@ -20,8 +20,8 @@ Edio had the aspect of "cloning", but lacked the capacity to clone, and create r
 
 In working on this feature I learned a valuable lesson in getting team feedback, EARLY! I was new to the project and had not yet gotten acclimated to the patterns and preferences of the team. Also, I was introduced to the concept of "Aspects", and how they can be leveraged to make the API more RESTful.
 
-* [Controller](./ContentAreaVersionDraftComponentPasteController.cs)
-* [Controller](./ContentAreaVersionDraftComponentPasteConductor.cs)
+* [ContentAreaVersionDraftComponentPasteController](./edio/ContentAreaVersionDraftComponentPasteController.cs)
+* [ContentAreaVersionDraftComponentPasteConductor](./edio/ContentAreaVersionDraftComponentPasteConductor.cs)
 
 ## NFPA
 
@@ -51,7 +51,7 @@ My biggest learning experience with andculture to date has been the Pinnacle Rev
 Pinnacle suffered from a lot of style bugs, inconsistencies, and regressions on changes. On top of that, the development team struggled to fix these problems without unintentionally breaking something else. The site used bootstrap and Sass, but the styles were two large `*.scss` files (one for "general" and one for "mobile") that were hard to read. On top of that, the stylesheet had to be split in two files when it was rendered because it was so large! Older browsers would actually refuse to load it because of how many classes were defined in it.
 
 ### Solution
-Partially redesign the site. In doing so, rip out the styles, javascript and bootstrap framework and implement a prototypical javascript namespacing pattern, ITCSS with Sass CSS extension and rework the styles already existing on the site. Given my experience had not been heavy on the frontend of things, this was a challenging exercise in getting up to speed quickly with new technology and concepts. When fully implemented, the stylesheet was drastically reduced in size, and the naming conventions of styles had been standardized to make debugging and extension much easier for developers working on the project. Style bugs became less of an issue, and the mobile site was awarded Platinum in an e-healthcare leadership for Best Mobile Website.
+Partially redesign the site. In doing so, rip out the styles, javascript and bootstrap framework and implement a prototypical javascript namespacing pattern, ITCSS with Sass CSS extension and rework the styles already existing on the site. Given my experience had not been heavy on the frontend of things, this was a challenging exercise in getting up to speed quickly with new technology and concepts. When fully implemented, the stylesheet was drastically reduced in size, and the naming conventions of styles had been standardized to make debugging and extension much easier for developers working on the project. Style bugs became a non-issue, and the mobile site was awarded Platinum in an e-healthcare leadership for Best Mobile Website.
 
 
 # Proposal
