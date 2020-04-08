@@ -21,7 +21,7 @@ Edio had the aspect of "cloning", but lacked the capacity to clone, and create r
 In working on this feature I learned a valuable lesson in getting team feedback, EARLY! I was new to the project and had not yet gotten acclimated to the patterns and preferences of the team. Also, I was introduced to the concept of "Aspects", and how they can be leveraged to make the API more RESTful.
 
 * [ContentAreaVersionDraftComponentPasteController](./edio/ContentAreaVersionDraftComponentPasteController.cs)
-* [ContentAreaVersionDraftComponentPasteConductor](./edio/ContentAreaVersionDraftComponentPasteConductor.cs)
+* [ContentAreaVersionDraftPasteConductor](./edio/ContentAreaVersionDraftPasteConductor.cs)
 
 ## NFPA
 
